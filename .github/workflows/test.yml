@@ -68,5 +68,5 @@ jobs:
         with:
           manifests: |
             ${{ github.workspace }}/manifest/deployment1.yaml
-            ${{ github.workspace }}/manifest/deployment2.yaml
+            # ${{ github.workspace }}/manifest/deployment2.yaml
           namespace: default
